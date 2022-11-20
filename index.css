@@ -109,19 +109,20 @@ h1 {
 }
 
 .todolist .todo-container .title-show:before {
-  transition: all 0.2s;
+  transition: all 1s;
   content: '';
   top: 40%;
   left: 0;
   position: absolute;
   height: 1px;
-  width: 0;
+  width: 1px;
   background-color: #20202000;
 }
 
 .todolist .todo-container.done .title-show:before {
-  width: calc(100% - 60px);
-  background-color: #555;
+  transition: all 0.5s;
+  width: calc(100% - 70px);
+  background-color: #505050ff;
 }
 
 .todolist .todo-container.done .title-show {
@@ -135,4 +136,23 @@ h1 {
   position: absolute;
   bottom: 5px;
   right: 10px;
+}
+
+.action-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-right > * {
+  transition: all 0.2s;
+  margin-left: 10px;
+}
+
+.check:hover {
+  color: darkgreen;
+}
+
+.delete:hover {
+  color: darkred;
 }
