@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✅Task List</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- JS -->
+  <script type="text/javascript" defer src="./index.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- JQuery -->
+  <script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>My SUPER TodoList</h1>
+  <section id="todolist">
+    <div class="insert-box">
+      <h2>Write your Todo</h2>
+      <div class="add-todo">
+        <input placeholder="Your todo...">
+        <div class="add"><i class="fas fa-plus"></i></div>
+      </div>
+    </div>
+    <ul class="todolist">
+      
+      <li class="todo-container">
+        <div class="title">
+          <div class="title-show">Faire le ménage</div>
+          <input class="title-edit" value="Faire le ménage"></input>
+        </div>
+        <div class="action-right">
+          <divc class="delete"><i class="fas fa-trash"></i></div>
+        </div>
+      </li>
+
+      <li class="todo-container edition">
+        <div class="title">
+          <div class="title-show">Apprendre le JavaScript</div>
+          <input class="title-edit" value="Apprendre le JavaScript"></input>
+        </div>
+        <div class="action-right">
+          <div class="delete"><i class="fas fa-trash"></i></div>
+        </div>
+      </li>
+
+      <li class="todo-container done">
+        <div class="title">
+          <div class="title-show">Poncer le mur</div>
+          <input class="title-edit" value="Poncer le mur"></input>
+        </div>
+        <div class="action-right">
+          <divc class="delete"><i class="fas fa-trash"></i></div>
+        </div>
+      </li>
+
+      <li class="todo-container done">
+        <div class="title">
+          <div class="title-show">Miner du souffre</div>
+          <input class="title-edit" value="Miner du souffre"></input>
+        </div>
+        <div class="action-right">
+          <divc class="delete"><i class="fas fa-trash"></i></div>
+        </div> 
+      </li>
+
+    </ul>
+    <div class="status">2/4 Tâches faites</div>
+  </section>
+</body>
+</html>
